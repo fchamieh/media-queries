@@ -1,0 +1,1471 @@
+﻿/**************************************************************************/
+/* Show / Hide */
+/**************************************************************************/
+body.mq-not-initialized {
+    display: none;
+}
+
+[hide] {
+    display: none !important;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+[show] {
+    display: block
+}
+
+.mq-xs [show-xs] {
+    display: block
+}
+
+.mq-xs [hide-xs] {
+    display: none !important;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.mq-gt-xs [show-gt-xs] {
+    display: block
+}
+
+.mq-gt-xs [hide-gt-xs] {
+    display: none !important;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.mq-sm [show-sm] {
+    display: block
+}
+
+.mq-sm [hide-sm] {
+    display: none !important;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.mq-gt-sm [show-gt-sm] {
+    display: block
+}
+
+.mq-gt-sm [hide-gt-sm] {
+    display: none !important;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.mq-lg [show-lg] {
+    display: block
+}
+
+.mq-lg [hide-lg] {
+    display: none !important;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.mq-gt-lg [show-gt-lg] {
+    display: block
+}
+
+.mq-gt-lg [hide-gt-lg] {
+    display: none !important;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.mq-xl [show-xl] {
+    display: block
+}
+
+.mq-xl [hide-xl] {
+    display: none !important;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.mq-xs *[layout="row"][show-xs] {
+    display: flex
+}
+
+.mq-gt-xs *[layout="row"][show-gt-xs] {
+    display: flex
+}
+
+.mq-sm *[layout="row"][show-sm] {
+    display: flex
+}
+
+.mq-gt-sm *[layout="row"][show-gt-sm] {
+    display: flex
+}
+
+.mq-lg *[layout="row"][show-lg] {
+    display: flex
+}
+
+.mq-gt-lg *[layout="row"][show-gt-lg] {
+    display: flex
+}
+
+.mq-xl *[layout="row"][show-xl] {
+    display: flex
+}
+
+/**************************************************************************/
+/* Layout */
+/**************************************************************************/
+
+*[layout="row"] {
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+*[layout="column"] {
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+*[layout="row"] {
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.mq-xs *[layout-xs="row"] {
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.mq-xs *[layout-xs="column"] {
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.mq-sm *[layout-sm="row"] {
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.mq-sm *[layout-sm="column"] {
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.mq-gt-xs *[layout-gt-xs="row"] {
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.mq-gt-xs *[layout-gt-xs="column"] {
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.mq-gt-sm *[layout-gt-sm="row"] {
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.mq-gt-sm *[layout-gt-sm="column"] {
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+/**************************************************************************/
+/* Alignment - Flow Axis */
+/**************************************************************************/
+
+*[layout-align="center"] {
+    justify-content: center;
+}
+
+.mq-xs *[layout-align-xs="center"] {
+    justify-content: center;
+}
+
+.mq-sm *[layout-align-sm="center"] {
+    justify-content: center;
+}
+
+.mq-md *[layout-align-md="center"] {
+    justify-content: center;
+}
+
+.mq-lg *[layout-align-lg="center"] {
+    justify-content: center;
+}
+
+.mq-xl *[layout-align-xl="center"] {
+    justify-content: center;
+}
+
+.mq-gt-xs *[layout-align-gt-xs="center"] {
+    justify-content: center;
+}
+
+.mq-gt-sm *[layout-align-gt-sm="center"] {
+    justify-content: center;
+}
+
+*[layout-align="start"] {
+    justify-content: flex-start;
+}
+
+.mq-xs *[layout-align-xs="start"] {
+    justify-content: flex-start;
+}
+
+.mq-sm *[layout-align-sm="start"] {
+    justify-content: flex-start;
+}
+
+.mq-md *[layout-align-md="start"] {
+    justify-content: flex-start;
+}
+
+.mq-lg *[layout-align-lg="start"] {
+    justify-content: flex-start;
+}
+
+.mq-xl *[layout-align-xl="start"] {
+    justify-content: flex-start;
+}
+
+.mq-gt-xs *[layout-align-gt-xs="start"] {
+    justify-content: flex-start;
+}
+
+.mq-gt-sm *[layout-align-gt-sm="start"] {
+    justify-content: flex-start;
+}
+
+*[layout-align="end"] {
+    justify-content: flex-end;
+}
+
+.mq-xs *[layout-align-xs="end"] {
+    justify-content: flex-end;
+}
+
+.mq-sm *[layout-align-sm="end"] {
+    justify-content: flex-end;
+}
+
+.mq-md *[layout-align-md="end"] {
+    justify-content: flex-end;
+}
+
+.mq-lg *[layout-align-lg="end"] {
+    justify-content: flex-end;
+}
+
+.mq-xl *[layout-align-xl="end"] {
+    justify-content: flex-end;
+}
+
+.mq-gt-xs *[layout-align-gt-xs="end"] {
+    justify-content: flex-end;
+}
+
+.mq-gt-sm *[layout-align-gt-sm="end"] {
+    justify-content: flex-end;
+}
+
+*[layout-align="space-between"] {
+    justify-content: space-between;
+}
+
+.mq-xs *[layout-align-xs="space-between"] {
+    justify-content: space-between;
+}
+
+.mq-gt-xs *[layout-align-gt-xs="space-between"] {
+    justify-content: space-between;
+}
+
+.mq-gt-sm *[layout-align-gt-sm="space-between"] {
+    justify-content: space-between;
+}
+
+*[layout-align="space-around"] {
+    justify-content: space-around;
+}
+
+.mq-xs *[layout-align-xs="space-around"] {
+    justify-content: space-around;
+}
+
+.mq-sm *[layout-align-sm="space-around"] {
+    justify-content: space-around;
+}
+
+.mq-md *[layout-align-md="space-around"] {
+    justify-content: space-around;
+}
+
+.mq-lg *[layout-align-lg="space-around"] {
+    justify-content: space-around;
+}
+
+.mq-xl *[layout-align-xl="space-around"] {
+    justify-content: space-around;
+}
+
+.mq-gt-xs *[layout-align-gt-xs="space-around"] {
+    justify-content: space-around;
+}
+
+.mq-gt-sm *[layout-align-gt-sm="space-around"] {
+    justify-content: space-around;
+}
+
+*[layout-align="space-evenly"] {
+    justify-content: space-evenly;
+}
+
+.mq-xs *[layout-align-xs="space-evenly"] {
+    justify-content: space-evenly;
+}
+
+.mq-sm *[layout-align-sm="space-evenly"] {
+    justify-content: space-evenly;
+}
+
+.mq-md *[layout-align-md="space-evenly"] {
+    justify-content: space-evenly;
+}
+
+.mq-lg *[layout-align-lg="space-evenly"] {
+    justify-content: space-evenly;
+}
+
+.mq-xl *[layout-align-xl="space-evenly"] {
+    justify-content: space-evenly;
+}
+
+.mq-gt-xs *[layout-align-gt-xs="space-evenly"] {
+    justify-content: space-evenly;
+}
+
+.mq-gt-sm *[layout-align-gt-sm="space-evenly"] {
+    justify-content: space-evenly;
+}
+
+/**************************************************************************/
+/* Alignment - Cross Axis */
+/**************************************************************************/
+
+*[cross-layout-align="center"] {
+    align-items: center;
+}
+
+.mq-xs *[cross-layout-align-xs="center"] {
+    align-items: center;
+}
+
+.mq-sm *[cross-layout-align-sm="center"] {
+    align-items: center;
+}
+
+.mq-md *[cross-layout-align-md="center"] {
+    align-items: center;
+}
+
+.mq-lg *[cross-layout-align-lg="center"] {
+    align-items: center;
+}
+
+.mq-xl *[cross-layout-align-xl="center"] {
+    align-items: center;
+}
+
+.mq-gt-xs *[cross-layout-align-gt-xs="center"] {
+    align-items: center;
+}
+
+.mq-sm *[cross-layout-align-sm="center"] {
+    align-items: center;
+}
+
+.mq-gt-sm *[cross-layout-align-gt-sm="center"] {
+    align-items: center;
+}
+
+*[cross-layout-align="start"] {
+    align-items: flex-start;
+}
+
+.mq-xs *[cross-layout-align-xs="start"] {
+    align-items: flex-start;
+}
+
+.mq-sm *[cross-layout-align-sm="start"] {
+    align-items: flex-start;
+}
+
+.mq-md *[cross-layout-align-md="start"] {
+    align-items: flex-start;
+}
+
+.mq-lg *[cross-layout-align-lg="start"] {
+    align-items: flex-start;
+}
+
+.mq-xl *[cross-layout-align-xl="start"] {
+    align-items: flex-start;
+}
+
+.mq-gt-xs *[cross-layout-align-gt-xs="start"] {
+    align-items: flex-start;
+}
+
+.mq-sm *[cross-layout-align-sm="start"] {
+    align-items: flex-start;
+}
+
+.mq-gt-sm *[cross-layout-align-gt-sm="start"] {
+    align-items: flex-start;
+}
+
+*[cross-layout-align="end"] {
+    align-items: flex-end;
+}
+
+.mq-xs *[cross-layout-align-xs="end"] {
+    align-items: flex-end;
+}
+
+.mq-sm *[cross-layout-align-sm="end"] {
+    align-items: flex-end;
+}
+
+.mq-md *[cross-layout-align-md="end"] {
+    align-items: flex-end;
+}
+
+.mq-lg *[cross-layout-align-lg="end"] {
+    align-items: flex-end;
+}
+
+.mq-xl *[cross-layout-align-xl="end"] {
+    align-items: flex-end;
+}
+
+.mq-gt-xs *[cross-layout-align-gt-xs="end"] {
+    align-items: flex-end;
+}
+
+.mq-gt-sm *[cross-layout-align-gt-sm="end"] {
+    align-items: flex-end;
+}
+
+*[cross-layout-align="stretch"] {
+    align-items: stretch;
+}
+
+.mq-xs *[cross-layout-align-xs="stretch"] {
+    align-items: stretch;
+}
+
+.mq-gt-xs *[cross-layout-align-gt-xs="stretch"] {
+    align-items: stretch;
+}
+
+.mq-sm *[cross-layout-align-sm="stretch"] {
+    align-items: stretch;
+}
+
+.mq-gt-sm *[cross-layout-align-gt-sm="stretch"] {
+    align-items: stretch;
+}
+
+*[cross-layout-align="baseline"] {
+    align-items: baseline;
+}
+
+.mq-xs *[cross-layout-align-xs="baseline"] {
+    align-items: baseline;
+}
+
+.mq-gt-xs *[cross-layout-align-gt-xs="baseline"] {
+    align-items: baseline;
+}
+
+.mq-sm *[cross-layout-align-sm="baseline"] {
+    align-items: baseline;
+}
+
+.mq-gt-sm *[cross-layout-align-gt-sm="baseline"] {
+    align-items: baseline;
+}
+
+/**************************************************************************/
+/* Flex Wrapping */
+/**************************************************************************/
+*[layout][layout-wrap] {
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+/**************************************************************************/
+/* Flex Sizes */
+/**************************************************************************/
+*[layout] > *[flex=""] {
+    -ms-flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.mq-xs *[layout] > *[flex-xs=""] {
+    -ms-flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs=""] {
+    -ms-flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm=""] {
+    -ms-flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+*[layout] > *[flex="5"] {
+    width: 5%;
+    flex: 0 0 5%;
+}
+
+*[layout] > *[flex="10"] {
+    width: 10%;
+    flex: 0 0 10%;
+}
+
+*[layout] > *[flex="15"] {
+    width: 15%;
+    flex: 0 0 5%;
+}
+
+*[layout] > *[flex="20"] {
+    width: 20%;
+    flex: 0 0 20%;
+}
+
+*[layout] > *[flex="25"] {
+    width: 25%;
+    flex: 0 0 25%;
+}
+
+*[layout] > *[flex="30"] {
+    width: 30%;
+    flex: 0 0 30%;
+}
+
+*[layout] > *[flex="33"] {
+    width: 33.33%;
+    flex: 0 0 33.33%;
+}
+
+*[layout] > *[flex="35"] {
+    width: 35%;
+    flex: 0 0 35%;
+}
+
+*[layout] > *[flex="40"] {
+    width: 40%;
+    flex: 0 0 40%;
+}
+
+*[layout] > *[flex="45"] {
+    width: 45%;
+    flex: 0 0 45%;
+}
+
+*[layout] > *[flex="50"] {
+    width: 50%;
+    flex: 0 0 50%;
+}
+
+*[layout] > *[flex="55"] {
+    width: 55%;
+    flex: 0 0 55%;
+}
+
+*[layout] > *[flex="60"] {
+    width: 60%;
+    flex: 0 0 60%;
+}
+
+*[layout] > *[flex="65"] {
+    width: 65%;
+    flex: 0 0 65%;
+}
+
+*[layout] > *[flex="66"] {
+    width: 66.66%;
+    flex: 0 0 66.66%;
+}
+
+*[layout] > *[flex="70"] {
+    width: 70%;
+    flex: 0 0 70%;
+}
+
+*[layout] > *[flex="75"] {
+    width: 75%;
+    flex: 0 0 70%;
+}
+
+*[layout] > *[flex="80"] {
+    width: 80%;
+    flex: 0 0 80%;
+}
+
+*[layout] > *[flex="85"] {
+    width: 85%;
+    flex: 0 0 85%;
+}
+
+*[layout] > *[flex="90"] {
+    width: 90%;
+    flex: 0 0 90%;
+}
+
+*[layout] > *[flex="95"] {
+    width: 95%;
+    flex: 0 0 95%;
+}
+
+*[layout] > *[flex="100"] {
+    width: 100%;
+    flex: 0 0 100%;
+}
+
+/********************************
+    Flex Sizes - XS
+********************************/
+.mq-xs *[layout] > *[flex-xs="5"] {
+    width: 5%;
+    flex: 0 0 5%
+}
+
+.mq-xs *[layout] > *[flex-xs="10"] {
+    width: 10%;
+    flex: 0 0 10%
+}
+
+.mq-xs *[layout] > *[flex-xs="15"] {
+    width: 15%;
+    flex: 0 0 15%
+}
+
+.mq-xs *[layout] > *[flex-xs="20"] {
+    width: 20%;
+    flex: 0 0 20%
+}
+
+.mq-xs *[layout] > *[flex-xs="25"] {
+    width: 25%;
+    flex: 0 0 25%
+}
+
+.mq-xs *[layout] > *[flex-xs="30"] {
+    width: 30%;
+    flex: 0 0 30%
+}
+
+.mq-xs *[layout] > *[flex-xs="33"] {
+    width: 33.33%;
+}
+
+.mq-xs *[layout] > *[flex-xs="35"] {
+    width: 35%;
+    flex: 0 0 35%
+}
+
+.mq-xs *[layout] > *[flex-xs="40"] {
+    width: 40%;
+    flex: 0 0 40%
+}
+
+.mq-xs *[layout] > *[flex-xs="45"] {
+    width: 45%;
+    flex: 0 0 45%
+}
+
+.mq-xs *[layout] > *[flex-xs="50"] {
+    width: 50%;
+    flex: 0 0 50%
+}
+
+.mq-xs *[layout] > *[flex-xs="55"] {
+    width: 55%;
+    flex: 0 0 55%
+}
+
+.mq-xs *[layout] > *[flex-xs="60"] {
+    width: 60%;
+    flex: 0 0 60%
+}
+
+.mq-xs *[layout] > *[flex-xs="65"] {
+    width: 65%;
+    flex: 0 0 65%
+}
+
+.mq-xs *[layout] > *[flex-xs="66"] {
+    width: 66.66%;
+}
+
+.mq-xs *[layout] > *[flex-xs="70"] {
+    width: 70%;
+    flex: 0 0 70%
+}
+
+.mq-xs *[layout] > *[flex-xs="75"] {
+    width: 75%;
+    flex: 0 0 75%
+}
+
+.mq-xs *[layout] > *[flex-xs="80"] {
+    width: 80%;
+    flex: 0 0 80%
+}
+
+.mq-xs *[layout] > *[flex-xs="85"] {
+    width: 85%;
+    flex: 0 0 85%
+}
+
+.mq-xs *[layout] > *[flex-xs="90"] {
+    width: 90%;
+    flex: 0 0 90%
+}
+
+.mq-xs *[layout] > *[flex-xs="95"] {
+    width: 95%;
+    flex: 0 0 95%
+}
+
+.mq-xs *[layout] > *[flex-xs="100"] {
+    width: 100%;
+    flex: 0 0 100%
+}
+
+/********************************
+    Flex Sizes - sm
+********************************/
+.mq-sm *[layout] > *[flex-sm="5"] {
+    width: 5%;
+    flex: 0 0 5%
+}
+
+.mq-sm *[layout] > *[flex-sm="10"] {
+    width: 10%;
+    flex: 0 0 10%
+}
+
+.mq-sm *[layout] > *[flex-sm="15"] {
+    width: 15%;
+    flex: 0 0 15%
+}
+
+.mq-sm *[layout] > *[flex-sm="20"] {
+    width: 20%;
+    flex: 0 0 20%
+}
+
+.mq-sm *[layout] > *[flex-sm="25"] {
+    width: 25%;
+    flex: 0 0 25%
+}
+
+.mq-sm *[layout] > *[flex-sm="30"] {
+    width: 30%;
+    flex: 0 0 30%
+}
+
+.mq-sm *[layout] > *[flex-sm="33"] {
+    width: 33.33%;
+}
+
+.mq-sm *[layout] > *[flex-sm="35"] {
+    width: 35%;
+    flex: 0 0 35%
+}
+
+.mq-sm *[layout] > *[flex-sm="40"] {
+    width: 40%;
+    flex: 0 0 40%
+}
+
+.mq-sm *[layout] > *[flex-sm="45"] {
+    width: 45%;
+    flex: 0 0 45%
+}
+
+.mq-sm *[layout] > *[flex-sm="50"] {
+    width: 50%;
+    flex: 0 0 50%
+}
+
+.mq-sm *[layout] > *[flex-sm="55"] {
+    width: 55%;
+    flex: 0 0 55%
+}
+
+.mq-sm *[layout] > *[flex-sm="60"] {
+    width: 60%;
+    flex: 0 0 60%
+}
+
+.mq-sm *[layout] > *[flex-sm="65"] {
+    width: 65%;
+    flex: 0 0 65%
+}
+
+.mq-sm *[layout] > *[flex-sm="66"] {
+    width: 66.66%;
+}
+
+.mq-sm *[layout] > *[flex-sm="70"] {
+    width: 70%;
+    flex: 0 0 70%
+}
+
+.mq-sm *[layout] > *[flex-sm="75"] {
+    width: 75%;
+    flex: 0 0 75%
+}
+
+.mq-sm *[layout] > *[flex-sm="80"] {
+    width: 80%;
+    flex: 0 0 80%
+}
+
+.mq-sm *[layout] > *[flex-sm="85"] {
+    width: 85%;
+    flex: 0 0 85%
+}
+
+.mq-sm *[layout] > *[flex-sm="90"] {
+    width: 90%;
+    flex: 0 0 90%
+}
+
+.mq-sm *[layout] > *[flex-sm="95"] {
+    width: 95%;
+    flex: 0 0 95%
+}
+
+.mq-sm *[layout] > *[flex-sm="100"] {
+    width: 100%;
+    flex: 0 0 100%
+}
+
+/********************************
+    Flex Sizes - md
+********************************/
+.mq-md *[layout] > *[flex-md="5"] {
+    width: 5%;
+    flex: 0 0 5%
+}
+
+.mq-md *[layout] > *[flex-md="10"] {
+    width: 10%;
+    flex: 0 0 10%
+}
+
+.mq-md *[layout] > *[flex-md="15"] {
+    width: 15%;
+    flex: 0 0 15%
+}
+
+.mq-md *[layout] > *[flex-md="20"] {
+    width: 20%;
+    flex: 0 0 20%
+}
+
+.mq-md *[layout] > *[flex-md="25"] {
+    width: 25%;
+    flex: 0 0 25%
+}
+
+.mq-md *[layout] > *[flex-md="30"] {
+    width: 30%;
+    flex: 0 0 30%
+}
+
+.mq-md *[layout] > *[flex-md="33"] {
+    width: 33.33%;
+}
+
+.mq-md *[layout] > *[flex-md="35"] {
+    width: 35%;
+    flex: 0 0 35%
+}
+
+.mq-md *[layout] > *[flex-md="40"] {
+    width: 40%;
+    flex: 0 0 40%
+}
+
+.mq-md *[layout] > *[flex-md="45"] {
+    width: 45%;
+    flex: 0 0 45%
+}
+
+.mq-md *[layout] > *[flex-md="50"] {
+    width: 50%;
+    flex: 0 0 50%
+}
+
+.mq-md *[layout] > *[flex-md="55"] {
+    width: 55%;
+    flex: 0 0 55%
+}
+
+.mq-md *[layout] > *[flex-md="60"] {
+    width: 60%;
+    flex: 0 0 60%
+}
+
+.mq-md *[layout] > *[flex-md="65"] {
+    width: 65%;
+    flex: 0 0 65%
+}
+
+.mq-md *[layout] > *[flex-md="66"] {
+    width: 66.66%;
+}
+
+.mq-md *[layout] > *[flex-md="70"] {
+    width: 70%;
+    flex: 0 0 70%
+}
+
+.mq-md *[layout] > *[flex-md="75"] {
+    width: 75%;
+    flex: 0 0 75%
+}
+
+.mq-md *[layout] > *[flex-md="80"] {
+    width: 80%;
+    flex: 0 0 80%
+}
+
+.mq-md *[layout] > *[flex-md="85"] {
+    width: 85%;
+    flex: 0 0 85%
+}
+
+.mq-md *[layout] > *[flex-md="90"] {
+    width: 90%;
+    flex: 0 0 90%
+}
+
+.mq-md *[layout] > *[flex-md="95"] {
+    width: 95%;
+    flex: 0 0 95%
+}
+
+.mq-md *[layout] > *[flex-md="100"] {
+    width: 100%;
+    flex: 0 0 100%
+}
+
+/********************************
+    Flex Sizes - lg
+********************************/
+.mq-lg *[layout] > *[flex-lg="5"] {
+    width: 5%;
+    flex: 0 0 5%
+}
+
+.mq-lg *[layout] > *[flex-lg="10"] {
+    width: 10%;
+    flex: 0 0 10%
+}
+
+.mq-lg *[layout] > *[flex-lg="15"] {
+    width: 15%;
+    flex: 0 0 15%
+}
+
+.mq-lg *[layout] > *[flex-lg="20"] {
+    width: 20%;
+    flex: 0 0 20%
+}
+
+.mq-lg *[layout] > *[flex-lg="25"] {
+    width: 25%;
+    flex: 0 0 25%
+}
+
+.mq-lg *[layout] > *[flex-lg="30"] {
+    width: 30%;
+    flex: 0 0 30%
+}
+
+.mq-lg *[layout] > *[flex-lg="33"] {
+    width: 33.33%;
+}
+
+.mq-lg *[layout] > *[flex-lg="35"] {
+    width: 35%;
+    flex: 0 0 35%
+}
+
+.mq-lg *[layout] > *[flex-lg="40"] {
+    width: 40%;
+    flex: 0 0 40%
+}
+
+.mq-lg *[layout] > *[flex-lg="45"] {
+    width: 45%;
+    flex: 0 0 45%
+}
+
+.mq-lg *[layout] > *[flex-lg="50"] {
+    width: 50%;
+    flex: 0 0 50%
+}
+
+.mq-lg *[layout] > *[flex-lg="55"] {
+    width: 55%;
+    flex: 0 0 55%
+}
+
+.mq-lg *[layout] > *[flex-lg="60"] {
+    width: 60%;
+    flex: 0 0 60%
+}
+
+.mq-lg *[layout] > *[flex-lg="65"] {
+    width: 65%;
+    flex: 0 0 65%
+}
+
+.mq-lg *[layout] > *[flex-lg="66"] {
+    width: 66.66%;
+}
+
+.mq-lg *[layout] > *[flex-lg="70"] {
+    width: 70%;
+    flex: 0 0 70%
+}
+
+.mq-lg *[layout] > *[flex-lg="75"] {
+    width: 75%;
+    flex: 0 0 75%
+}
+
+.mq-lg *[layout] > *[flex-lg="80"] {
+    width: 80%;
+    flex: 0 0 80%
+}
+
+.mq-lg *[layout] > *[flex-lg="85"] {
+    width: 85%;
+    flex: 0 0 85%
+}
+
+.mq-lg *[layout] > *[flex-lg="90"] {
+    width: 90%;
+    flex: 0 0 90%
+}
+
+.mq-lg *[layout] > *[flex-lg="95"] {
+    width: 95%;
+    flex: 0 0 95%
+}
+
+.mq-lg *[layout] > *[flex-lg="100"] {
+    width: 100%;
+    flex: 0 0 100%
+}
+
+/********************************
+    Flex Sizes - xl
+********************************/
+.mq-xl *[layout] > *[flex-xl="5"] {
+    width: 5%;
+    flex: 0 0 5%
+}
+
+.mq-xl *[layout] > *[flex-xl="10"] {
+    width: 10%;
+    flex: 0 0 10%
+}
+
+.mq-xl *[layout] > *[flex-xl="15"] {
+    width: 15%;
+    flex: 0 0 15%
+}
+
+.mq-xl *[layout] > *[flex-xl="20"] {
+    width: 20%;
+    flex: 0 0 20%
+}
+
+.mq-xl *[layout] > *[flex-xl="25"] {
+    width: 25%;
+    flex: 0 0 25%
+}
+
+.mq-xl *[layout] > *[flex-xl="30"] {
+    width: 30%;
+    flex: 0 0 30%
+}
+
+.mq-xl *[layout] > *[flex-xl="33"] {
+    width: 33.33%;
+}
+
+.mq-xl *[layout] > *[flex-xl="35"] {
+    width: 35%;
+    flex: 0 0 35%
+}
+
+.mq-xl *[layout] > *[flex-xl="40"] {
+    width: 40%;
+    flex: 0 0 40%
+}
+
+.mq-xl *[layout] > *[flex-xl="45"] {
+    width: 45%;
+    flex: 0 0 45%
+}
+
+.mq-xl *[layout] > *[flex-xl="50"] {
+    width: 50%;
+    flex: 0 0 50%
+}
+
+.mq-xl *[layout] > *[flex-xl="55"] {
+    width: 55%;
+    flex: 0 0 55%
+}
+
+.mq-xl *[layout] > *[flex-xl="60"] {
+    width: 60%;
+    flex: 0 0 60%
+}
+
+.mq-xl *[layout] > *[flex-xl="65"] {
+    width: 65%;
+    flex: 0 0 65%
+}
+
+.mq-xl *[layout] > *[flex-xl="66"] {
+    width: 66.66%;
+}
+
+.mq-xl *[layout] > *[flex-xl="70"] {
+    width: 70%;
+    flex: 0 0 70%
+}
+
+.mq-xl *[layout] > *[flex-xl="75"] {
+    width: 75%;
+    flex: 0 0 75%
+}
+
+.mq-xl *[layout] > *[flex-xl="80"] {
+    width: 80%;
+    flex: 0 0 80%
+}
+
+.mq-xl *[layout] > *[flex-xl="85"] {
+    width: 85%;
+    flex: 0 0 85%
+}
+
+.mq-xl *[layout] > *[flex-xl="90"] {
+    width: 90%;
+    flex: 0 0 90%
+}
+
+.mq-xl *[layout] > *[flex-xl="95"] {
+    width: 95%;
+    flex: 0 0 95%
+}
+
+.mq-xl *[layout] > *[flex-xl="100"] {
+    width: 100%;
+    flex: 0 0 100%
+}
+
+/********************************
+    Flex Sizes - gt sm
+********************************/
+.mq-gt-sm *[layout] > *[flex-gt-sm="5"] {
+    width: 5%;
+    flex: 0 0 5%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="10"] {
+    width: 10%;
+    flex: 0 0 10%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="15"] {
+    width: 15%;
+    flex: 0 0 15%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="20"] {
+    width: 20%;
+    flex: 0 0 20%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="25"] {
+    width: 25%;
+    flex: 0 0 25%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="30"] {
+    width: 30%;
+    flex: 0 0 30%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="33"] {
+    width: 33.33%;
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="35"] {
+    width: 35%;
+    flex: 0 0 35%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="40"] {
+    width: 40%;
+    flex: 0 0 40%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="45"] {
+    width: 45%;
+    flex: 0 0 45%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="50"] {
+    width: 50%;
+    flex: 0 0 50%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="55"] {
+    width: 55%;
+    flex: 0 0 55%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="60"] {
+    width: 60%;
+    flex: 0 0 60%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="65"] {
+    width: 65%;
+    flex: 0 0 65%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="66"] {
+    width: 66.66%;
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="70"] {
+    width: 70%;
+    flex: 0 0 70%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="75"] {
+    width: 75%;
+    flex: 0 0 75%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="80"] {
+    width: 80%;
+    flex: 0 0 80%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="85"] {
+    width: 85%;
+    flex: 0 0 85%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="90"] {
+    width: 90%;
+    flex: 0 0 90%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="95"] {
+    width: 95%;
+    flex: 0 0 95%
+}
+
+.mq-gt-sm *[layout] > *[flex-gt-sm="100"] {
+    width: 100%;
+    flex: 0 0 100%
+}
+
+/********************************
+    Flex Sizes - gt xs
+********************************/
+.mq-gt-xs *[layout] > *[flex-gt-xs="5"] {
+    width: 5%;
+    flex: 0 0 5%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="10"] {
+    width: 10%;
+    flex: 0 0 10%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="15"] {
+    width: 15%;
+    flex: 0 0 15%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="20"] {
+    width: 20%;
+    flex: 0 0 20%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="25"] {
+    width: 25%;
+    flex: 0 0 25%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="30"] {
+    width: 30%;
+    flex: 0 0 30%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="33"] {
+    width: 33.33%;
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="35"] {
+    width: 35%;
+    flex: 0 0 35%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="40"] {
+    width: 40%;
+    flex: 0 0 40%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="45"] {
+    width: 45%;
+    flex: 0 0 45%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="50"] {
+    width: 50%;
+    flex: 0 0 50%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="55"] {
+    width: 55%;
+    flex: 0 0 55%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="60"] {
+    width: 60%;
+    flex: 0 0 60%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="65"] {
+    width: 65%;
+    flex: 0 0 65%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="66"] {
+    width: 66.66%;
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="70"] {
+    width: 70%;
+    flex: 0 0 70%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="75"] {
+    width: 75%;
+    flex: 0 0 75%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="80"] {
+    width: 80%;
+    flex: 0 0 80%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="85"] {
+    width: 85%;
+    flex: 0 0 85%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="90"] {
+    width: 90%;
+    flex: 0 0 90%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="95"] {
+    width: 95%;
+    flex: 0 0 95%
+}
+
+.mq-gt-xs *[layout] > *[flex-gt-xs="100"] {
+    width: 100%;
+    flex: 0 0 100%
+}
+
+/* Other Useful Things (Padding) */
+*[layout-padding], *[layout-padding] > * {
+    padding: 8px;
+}
+
+.mq-padding {
+    padding: 8px;
+}
+
+.mq-subpadding {
+    padding: 4px;
+}
+
+.mq-subsubpadding {
+    padding: 2px;
+}
