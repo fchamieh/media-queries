@@ -1,10 +1,10 @@
 # media-queries
-An attempt to provide Material Design (AngularJS Material)-like layout by flex attribute support and Media Queries for responsive styles.
+An attempt to provide [AngularJS Material Design](https://material.angularjs.org/latest/) layout by [flex](https://material.angularjs.org/latest/layout/introduction) attribute support and Media Queries for responsive styles.
 
 ## Usage
 Include both JS and CSS in your HTML page, then you can use them as follows
 
-### FlexBox Response Layout
+### FlexBox responsive layout
 
 ```
 <div layout="row" layout-xs="column" layout-align-gt-xs="center" cross-layout-align-xs="center">
