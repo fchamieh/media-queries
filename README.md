@@ -6,7 +6,7 @@ Include both JS and CSS in your HTML page, then you can use them as follows
 
 ### FlexBox responsive layout
 
-```
+```HTML
 <div layout="row" layout-xs="column" layout-align-gt-xs="center" cross-layout-align-xs="center">
 	<div>I am Child 1</div>
 	<div>I am Child 2</div>
@@ -16,13 +16,14 @@ Include both JS and CSS in your HTML page, then you can use them as follows
 
 Hiding and showing elements based on screen size
 
-```
+```HTML
 <div hide-xs>This will only show on screens larger than 480px in width</div>
 <div hide-gt-xs>This will only show on small screens smaller than 480px in width</div>
 ```
 
 ### Using shortcut size related media-query classes in CSS
-```
+
+```CSS
 .mq-xs .appliesOnlyOnMobile {
     font-size: 80%;
 }
