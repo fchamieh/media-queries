@@ -597,8 +597,8 @@ body.mq-not-initialized {
 }
 
 *[layout] > *[flex="33"] {
-    width: 33.33%;
-    flex: 0 0 33.33%;
+    width: 33.33333333%;
+    flex: 0 0 33.33333333%;
 }
 
 *[layout] > *[flex="35"] {
@@ -637,8 +637,8 @@ body.mq-not-initialized {
 }
 
 *[layout] > *[flex="66"] {
-    width: 66.66%;
-    flex: 0 0 66.66%;
+    width: 66.6666666%;
+    flex: 0 0 66.6666666%;
 }
 
 *[layout] > *[flex="70"] {
@@ -710,7 +710,8 @@ body.mq-not-initialized {
 }
 
 .mq-xs *[layout] > *[flex-xs="33"] {
-    width: 33.33%;
+    width: 33.33333333%;
+    flex: 0 0 33.33333333%;
 }
 
 .mq-xs *[layout] > *[flex-xs="35"] {
@@ -749,7 +750,8 @@ body.mq-not-initialized {
 }
 
 .mq-xs *[layout] > *[flex-xs="66"] {
-    width: 66.66%;
+    width: 66.6666666%;
+    flex: 0 0 66.6666666%
 }
 
 .mq-xs *[layout] > *[flex-xs="70"] {
@@ -821,7 +823,8 @@ body.mq-not-initialized {
 }
 
 .mq-sm *[layout] > *[flex-sm="33"] {
-    width: 33.33%;
+    width: 33.33333333%;
+    flex: 0 0 33.33333333%;
 }
 
 .mq-sm *[layout] > *[flex-sm="35"] {
@@ -860,7 +863,8 @@ body.mq-not-initialized {
 }
 
 .mq-sm *[layout] > *[flex-sm="66"] {
-    width: 66.66%;
+    width: 66.6666666%;
+    flex: 0 0 66.6666666%
 }
 
 .mq-sm *[layout] > *[flex-sm="70"] {
@@ -932,7 +936,8 @@ body.mq-not-initialized {
 }
 
 .mq-md *[layout] > *[flex-md="33"] {
-    width: 33.33%;
+    width: 33.33333333%;
+    flex: 0 0 33.33333333%;
 }
 
 .mq-md *[layout] > *[flex-md="35"] {
@@ -971,7 +976,8 @@ body.mq-not-initialized {
 }
 
 .mq-md *[layout] > *[flex-md="66"] {
-    width: 66.66%;
+    width: 66.6666666%;
+    flex: 0 0 66.6666666%
 }
 
 .mq-md *[layout] > *[flex-md="70"] {
@@ -1043,7 +1049,8 @@ body.mq-not-initialized {
 }
 
 .mq-lg *[layout] > *[flex-lg="33"] {
-    width: 33.33%;
+    width: 33.33333333%;
+    flex: 0 0 33.33333333%;
 }
 
 .mq-lg *[layout] > *[flex-lg="35"] {
@@ -1082,7 +1089,8 @@ body.mq-not-initialized {
 }
 
 .mq-lg *[layout] > *[flex-lg="66"] {
-    width: 66.66%;
+    width: 66.6666666%;
+    flex: 0 0 66.6666666%
 }
 
 .mq-lg *[layout] > *[flex-lg="70"] {
@@ -1154,7 +1162,8 @@ body.mq-not-initialized {
 }
 
 .mq-xl *[layout] > *[flex-xl="33"] {
-    width: 33.33%;
+    width: 33.33333333%;
+    flex: 0 0 33.33333333%;
 }
 
 .mq-xl *[layout] > *[flex-xl="35"] {
@@ -1193,7 +1202,8 @@ body.mq-not-initialized {
 }
 
 .mq-xl *[layout] > *[flex-xl="66"] {
-    width: 66.66%;
+    width: 66.6666666%;
+    flex: 0 0 66.6666666%
 }
 
 .mq-xl *[layout] > *[flex-xl="70"] {
@@ -1265,7 +1275,8 @@ body.mq-not-initialized {
 }
 
 .mq-gt-sm *[layout] > *[flex-gt-sm="33"] {
-    width: 33.33%;
+    width: 33.33333333%;
+    flex: 0 0 33.33333333%;
 }
 
 .mq-gt-sm *[layout] > *[flex-gt-sm="35"] {
@@ -1304,7 +1315,8 @@ body.mq-not-initialized {
 }
 
 .mq-gt-sm *[layout] > *[flex-gt-sm="66"] {
-    width: 66.66%;
+    width: 66.6666666%;
+    flex: 0 0 66.6666666%
 }
 
 .mq-gt-sm *[layout] > *[flex-gt-sm="70"] {
@@ -1376,7 +1388,8 @@ body.mq-not-initialized {
 }
 
 .mq-gt-xs *[layout] > *[flex-gt-xs="33"] {
-    width: 33.33%;
+    width: 33.33333333%;
+    flex: 0 0 33.33333333%;
 }
 
 .mq-gt-xs *[layout] > *[flex-gt-xs="35"] {
@@ -1415,7 +1428,8 @@ body.mq-not-initialized {
 }
 
 .mq-gt-xs *[layout] > *[flex-gt-xs="66"] {
-    width: 66.66%;
+    width: 66.6666666%;
+    flex: 0 0 66.6666666%
 }
 
 .mq-gt-xs *[layout] > *[flex-gt-xs="70"] {
