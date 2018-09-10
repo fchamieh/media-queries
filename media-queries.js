@@ -1,5 +1,5 @@
 ﻿//
-// Media Queries Javascript (for non-angular applications)
+// Media Queries Javascript
 // By Fadi Chamieh - September 2017
 //
 'use strict';
