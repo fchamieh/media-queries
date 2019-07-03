@@ -1,9 +1,9 @@
-﻿//
+﻿'use strict';
+
+//
 // Media Queries Javascript
 // By Fadi Chamieh - September 2017
 //
-'use strict';
-
 (function (global, factory) {
 
     if (typeof module === "object" && typeof module.exports === "object") {
@@ -216,7 +216,8 @@
                 var vendorRegex = /^(Moz|webkit|ms)(?=[A-Z])/;
 
                 for (prop in testElement.style) {
-                    if (match = vendorRegex.exec(prop)) {
+                    match = vendorRegex.exec(prop);
+                    if (match) {
                         return match[0];
                     }
                 }
