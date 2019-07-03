@@ -1,0 +1,29 @@
+{
+  "name": "media-queries",
+  "version": "1.0.0",
+  "description": "Media Queries is an active (JS based) HTML / CSS Library that provides the Flex attribute functionality similar to that of AngularJs Material Design (1.x)   ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fchamieh/media-queries.git"
+  },
+  "keywords": [
+    "Flex",
+    "Responsive",
+    "Css",
+    "Library",
+    "Tool"
+  ],
+  "author": "Fadi Chamieh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fchamieh/media-queries/issues"
+  },
+  "homepage": "https://github.com/fchamieh/media-queries#readme",
+  "devDependencies": {
+    "less": "^3.9.0"
+  }
+}
