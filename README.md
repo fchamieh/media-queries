@@ -1,6 +1,8 @@
 # media-queries
 An attempt to provide [AngularJS Material Design](https://material.angularjs.org/latest/) layout by [flex](https://material.angularjs.org/latest/layout/introduction) attribute support and Media Queries for responsive styles.
 
+Works with all modern browsers (tested on Chrome, Firefox, Safari, Edge), and IE 10/11.
+
 ## Usage
 Include both JS and CSS in your HTML page, then you can use them as follows
 
